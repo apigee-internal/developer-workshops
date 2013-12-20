@@ -1,71 +1,257 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Workshops by ptgrimm</title>
+    <title>Apigee Creations and Contributions
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apigee Contributions">
+    <meta name="author" content="Apigee">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css"
+    rel="stylesheet">
+    <link href="assets/css/apigee-strap.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Workshops</h1>
-        <p></p>
+<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type='text/javascript' src="http://evbdn.eventbrite.com/s3-s3/static/js/platform/Eventbrite.jquery.js"></script>
+<script type='text/javascript'>
+/* 
+    Eventbrite Examples - event_search
 
-        <p class="view"><a href="https://github.com/ptgrimm/workshops">View the Project on GitHub <small>ptgrimm/workshops</small></a></p>
+    If you copy this code, please set your own API Key in the example below.
+    You can request one here: http://www.eventbrite.com/api/key
+*/
 
-
-        <ul>
-          <li><a href="https://github.com/ptgrimm/workshops/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/ptgrimm/workshops/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/ptgrimm/workshops">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/ptgrimm">ptgrimm</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+Eventbrite({'app_key': "P47XBRPQTVS7YF64Z5"}, function(eb){
     
+    // define a few parameters to pass to the API
+    // Options are listed here: http://developer.eventbrite.com/doc/events/event_search/
+    var options = {
+        'date'  : "future",
+        'organizer': "apigee"
+    };
+    
+    // provide a callback to display the response data:
+    eb.event_search( options, function( response ){
+        $('.event_list').html(eb.utils.eventList( response, eb.utils.eventListRow ));
+    });
+});
+</script> 
+
+   <!-- <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'> -->
+
+    <script type="text/javascript" src="//use.typekit.net/ezw2jtl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    </head>
+  
+  <body>
+
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+           
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="masthead">
+        <div class="jumbotron">
+          <h1>
+          <!--  <img style="opacity: 1; width: 221px;" src="assets/img/apigee-logo.png" class="logo"><img src="assets/img/book.png" style="margin: 0px -3px 0px 23px; width: 91px;"> --> Developer Workshops           </h1>
+
+          <br/>
+       
+        </div>
+        <div class="littletron">
+            Learn how to build apps, troubleshoot and scale APIs with <a href="http://apigee.com/about/developers" target="_blank" ><img class="logo" src="assets/img/apigee-logo-reverse.png"/></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            <h2>Workshops</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>
+            From Zero to App Store in One Day with HTML5, jQuery, Phonegap and Usergrid
+          </h4>
+          <p>This class will teach you the essentials you need to build a mobile app for iOS or Android &ndash; as well as Windows Phone, Blackberry or a mobile browser. We'll review important aspects of mobile development and discuss using HTML5 and Javascript as a development option. </p>
+        </div>
+
+        <div class="col-md-6">
+          <h3>
+            <br/><br/>
+          </h3>
+          <p>You will also learn how to leverage a mobile UI framework (jQuery Mobile), how to add, store and retrieve data with a Backend-as-a-Service (open-source Usergrid) and how to package your app for devices (and the app stores) using PhoneGap.</p>
+        </div>
+      </div>
+
+        <div class="row">
+      <div class="col-md-6">
+        <h3>
+          Upcoming Workshops
+        </h3>
+        <p>  </p>
+          <div class="event_list"><a href="http://eventbrite.com">Loading Events...</a></div>
+      
+      </div>
+    </div>
+
+</div>
+
+
+
+    <div class="container">
+       <div class="row">
+        <div class="col-md-12">
+          <div class="page-header">
+            
+            <h2>Instructors</h2>
+            </h2>
+          </div>
+        </div>
+      </div>
+    <div class="row">
+        <div class="col-md-4">
+          <h3>
+            Tim
+          </h3>
+          <p><img align="left" src="http://ptgrimm.github.io/assets/img/tim-bw.jpg" style="">Tim Anglade, public speaker, former Computer Science lecturer, and Head of Developer Programs at Apigee. Tim has spoken about app development around the world, from OSCON to Oredev &amp; GoGaRuco, and met with mobile app developers from Silicon Valley to Seoul. He most recently gave this training in San Francisco, San Jose, Amsterdam, Los Angeles, Austin and Denver. You can find him on Twitter as @timanglade.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>
+            Greg
+          </h3>
+          <p><img align="left" src="http://ptgrimm.github.io/assets/img/greg-bw.jpg">Greg is a Developer Evangelist at Apigee. Greg has been working in the web industry literally since the web was born &ndash; he was hand-coding HTML before the table tag was even "invented". His career has taken him around the world, from the early days of desktop publishing, to a start-up in Hamburg, Germany where he helped build one of the first HTML authoring tools, the glory days of the web at Macromedia as the Technical Product Manager for Dreamweaver, and finally his role as Principal Evangelist at Adobe prior to joining Apigee.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>
+          Matt
+          </h3>
+          <p><img align="left" src="http://ptgrimm.github.io/assets/img/matt-bw.jpg">The sessions will be lead by Matt Dobson an Engineer and Evangelist on the Apigee Labs team. Matt constantly builds new things on every mobile platform with the latest technologies. He's most recently organized similar classes in the Bay Area, and in the Midwest. You can view his open source work on GitHub, and catch him on twitter at the handle @mdobs. </p>
+        </div>
+    </div>
+      </br>
+     <div class="row">
+        <div class="col-md-4">
+          <h3>
+            Alex
+          </h3>
+          <p><img align="left" src="http://ptgrimm.github.io/assets/img/alex-bw.jpg" style="">Alex has been working with web APIs for most of his career. His work has primarily focused on documentation and development of web-based services using a broad range of languages, including JavaScript, HTML, and PHP. You can find him on Twitter as @alexatapigee.
+  </p>
+        </div>
+        <div class="col-md-4">
+          <h3>
+            Steve
+          </h3>
+          <p><img align="left" src="http://ptgrimm.github.io/assets/img/steve-bw.jpg">Steve has been writing content for developers for quite some time. His work has focused on ease-of-use with technologies ranging from C++ to Java to JavaScript in apps for the web, desktop, and server-side. You can find him on Twitter as @steventraut.</p>
+        </div>
+       
+      </div>
+     
+   
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h2>Here’s what previous attendees have to say…</h2>
+        </h2>
+      </div>
+    </div>
+  </div>
+  <br/>
+<div class="row">
+  <div class="col-md-4">
+    <div class="tweet-wrapper">
+       <div class="tweet">
+      “Great HTML5 class today in San Fran with Tim Anglade Definitely looking forward to the advanced class next month!”  
+      </div>
+      <div class="handle">@JeffCGoss</div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="tweet-wrapper">
+      <div class="tweet">
+     “Awesome mobile apps training if you're looking to get a jump start with jQuery mobile and phonegap!”
+      </div>
+      <div class="handle">@nmakiya</div>
+      <div class="tweeter"></div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="tweet-wrapper">
+      <div class="tweet">
+      “Great workshop today! Left with new knowledge, great tips, a new book & a couple cold ones.......ALL FOR FREE”
+      </div>
+      <div class="handle">@terrance_unce</div>
+      <div class="tweeter"></div>
+    </div>
+  </div>
+</div>
+<br/><br/>
+<div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h2>For your boss...</h2>
+        </h2>
+      </div>
+    </div>
+</div>
+  <br/>
+<div class="row">
+  <div class="col-md-12">
+   You’re sold? Need to convince your bosses? Well, just tell them about all the things you’ll get to learn in just half a day! 
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-4">
+    <p>If you’re a <span class="bold">web designer</span>, you will learn how to design interfaces for mobile websites and mobile apps quickly, and even how to implement them on your own into working prototypes, allowing your to tackle your company’s mobile projects this year.</p>
+  </div>
+  <div class="col-md-4">
+    <p>If you’re a <span class="bold">front-end engineer</span>, you will learn how to build mobile applications that look & feel like native apps, using the tools you’re already proficient with: HTML, CSS and JavaScript/jQuery.</p>
+  </div>
+  <div class="col-md-4">
+    <p>If you’re a <span class="bold">native app developer</span>, you will learn another way to build mobile apps, that allows your company to quickly launch projects for multiple platforms (iOS, Android, Windows Phone, BlackBerry, etc.) using the same codebase!</p>
+  </div>
+  <div class="row">
+   <div class="col-md-4"><br/></div>
+  </div>
+  <div class="col-md-4">
+    <p>If you’re already an HTML5 or advanced <span class="bold">app developer</span>, you will learn how to use a Backend-as-a-service to quickly prototype, deploy and efficiently scale your company’s mobile apps without needing a backend team to keep it running.</p>
+  </div>
+  <div class="col-md-4">
+    <p>If you’re a <span class="bold">backend developer</span>, you will learn everything you need to know about the constraints of developing & launching mobile apps, what it means for backend architectures, and how large companies with tens of thousands of employees and millions of users manager their data backends for mobile apps.</p>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-12">
+    In just one day, you will learn everything you need to build real apps on your own. Past example includes: store locator, employee directory, Yelp-like app, mobile intranet, HR applicant tracker, lunch ordering system, conference app, room reservation system, and many more! Spend one day in this training and you’ll have the tools to tackle any mobile project your boss or customer throws at you.
+  </div>
+</div>
+</div>
+
+    <footer>            
+        <div class="container" style="text-align:right">
+            <small>&copy;2013 Apigee. All rights reserved.</small>
+        </div><!--/12-->
+  </footer>
   </body>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/js/bootstrap.min.js">
+    </script>
+
 </html>

@@ -116,6 +116,7 @@ h4 {
    letter-spacing: 0.3px;
    text-transform: capitalize;
    font-size:14px;
+   margin-top:20px;
 }
   h2 small, .h2 small {
    display: block;

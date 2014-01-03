@@ -1,127 +1,127 @@
 body {
-  color:#494949;
-  font-family: ars-maquette-pro-medium, sans-serif
+   color:#494949;
+   font-family: ars-maquette-pro-medium, sans-serif
 }
 h1,h2,h3,h3{
-  font-family: ars-maquette-pro-light, sans-serif 
+   font-family: ars-maquette-pro-light, sans-serif 
 }
 /* Custom container */
 .container {
-  margin: 0 auto;
-  max-width: 1000px;
+   margin: 0 auto;
+   max-width: 1000px;
 }
 .container > hr {
-  margin: 60px 0;
+   margin: 60px 0;
 }
 
 /* Main marketing message and sign up button */
 .page-header {
-  border: medium none !important;
-  margin: 30px 0 0 !important;
-  padding-bottom: 0 !important;
+   border: medium none !important;
+   margin: 30px 0 0 !important;
+   padding-bottom: 0 !important;
  }
 .jumbotron {
-  margin: 0 0 -52px;
-  text-align: center;
-  background:transparent;   
+   margin: 0 0 -52px;
+   text-align: center;
+   background:transparent;   
      }
 .jumbotron h1 {
-  font-size: 78px;
-  line-height: 1;
-  font-family: ars-maquette-pro-light,sans-serif ;
-  font-weight:200;
-  color:#494949;
+   font-size: 78px;
+   line-height: 1;
+   font-family: ars-maquette-pro-light,sans-serif ;
+   font-weight:200;
+   color:#494949;
 }
 .jumbotron .lead {
-  font-size: 24px;
-  line-height: 1.25;
+   font-size: 24px;
+   line-height: 1.25;
 }
 .jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+   font-size: 21px;
+   padding: 14px 24px;
 }
 .littletron{
-  background: #555;
-  color: white;
-  box-shadow: 0 -10px 15px -12px #222 inset;
-  border-radius: 0 !important;
-  margin: 30px 0 10px;
-  text-align: center;
-  padding: 20px 0 15px;
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: .3px;
+   background: #555;
+   color: white;
+   box-shadow: 0 -10px 15px -12px #222 inset;
+   border-radius: 0 !important;
+   margin: 30px 0 10px;
+   text-align: center;
+   padding: 20px 0 15px;
+   font-size: 19px;
+   font-weight: 400;
+   letter-spacing: .3px;
 }
 .logo{
-  width:100px;
-  padding-left:3px;
-  margin-top:-1px;
+   width:100px;
+   padding-left:3px;
+   margin-top:-1px;
 }
 .small-logo{
-  display: block;
-  margin: -1px auto 15px;
-  position: relative;
-  width: 80px;
+   display: block;
+   margin: -1px auto 15px;
+   position: relative;
+   width: 80px;
 }
 .col-md-2.highlight > h3 {
-  margin-top: 8px;
+   margin-top: 8px;
 }
 .masthead{
-  left:0;
-  right:0;
-  box-shadow: 0 -10px 10px -12px #666666 inset;
+   left:0;
+   right:0;
+   box-shadow: 0 -10px 10px -12px #666666 inset;
 }
 .subtitle{
-  display: block;
-  font-size: 32px;
-  font-weight: 200;
-  padding-top: 9px;
-  color:#acacac;
+   display: block;
+   font-size: 32px;
+   font-weight: 200;
+   padding-top: 9px;
+   color:#acacac;
 }
 .bg-color{
-  background:url("../img/lil_fiber.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+   background:url("../img/lil_fiber.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .orange{
-  color:#FF4300
+   color:#FF4300
 }
 /* Supporting marketing content */
 .marketing {
-  margin: 60px 0;
+   margin: 60px 0;
 }
 .marketing p + h4 {
-  margin-top: 28px;
+   margin-top: 28px;
 }
 .book {
-  margin: -13px 11px 1px 0;
-  opacity: 0.7;
-  width: 127px;
- }
+   margin: -13px 11px 1px 0;
+   opacity: 0.7;
+   width: 127px;
+}
 p{
-  font-weight:100;
-  letter-spacing: 0px;
-  border-top:1px dashed #cacaca;
-  padding-top:4px;
-  font-family: ars-maquette-pro-light;
-  margin-top:-4px;
+   font-weight:100;
+   letter-spacing: 0px;
+   border-top:1px dashed #cacaca;
+   padding-top:4px;
+   font-family: ars-maquette-pro-light;
+   margin-top:-4px;
 }
 h3{
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size:14px;
-  color:#333;
-  text-align:left;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   font-size:14px;
+   color:#333;
+   text-align:left;
 }
 h4 {
-  font-family: ars-maquette-pro-medium;
-  letter-spacing: 0.3px;
-  text-transform: capitalize;
-  font-size:14px;
+   font-family: ars-maquette-pro-medium;
+   letter-spacing: 0.3px;
+   text-transform: capitalize;
+   font-size:14px;
 }
   h2 small, .h2 small {
-  display: block;
-  font-size: 32px;
-  font-weight: 200;
-  padding-top: 9px;
+   display: block;
+   font-size: 32px;
+   font-weight: 200;
+   padding-top: 9px;
 }
 footer{
    background: #f9f9f9;
@@ -188,31 +188,31 @@ footer{
 }
 /* Customize the navbar links to be fill the entire space of the .navbar */
 .navbar .navbar-inner {
-  padding: 0;
+    padding: 0;
 }
 .navbar .nav {
-  margin: 0;
-  display: table;
-  width: 100%;
+    margin: 0;
+    display: table;
+    width: 100%;
 }
 .navbar .nav li {
-  display: table-cell;
-  width: 1%;
-  float: none;
+    display: table-cell;
+    width: 1%;
+    float: none;
 }
 .navbar .nav li a {
-  font-weight: bold;
-  text-align: center;
-  border-left: 1px solid rgba(255,255,255,.75);
-  border-right: 1px solid rgba(0,0,0,.1);
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255,255,255,.75);
+    border-right: 1px solid rgba(0,0,0,.1);
 }
 .navbar .nav li:first-child a {
-  border-left: 0;
-  border-radius: 3px 0 0 3px;
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
 }
 .navbar .nav li:last-child a {
-  border-right: 0;
-  border-radius: 0 3px 3px 0;
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
 }
 .tweet-wrapper {
     background: url("http://pages.apigee.com/rs/apigee/images/speech-box.png") repeat scroll -16px -9px rgba(0, 0, 0, 0);
@@ -239,6 +239,9 @@ footer{
     font-size: 16px;
     position: absolute;
     top: 217px;
+}
+.eb_event_list_item {
+    margin-bottom: 1em;
 }
 @font-face{font-family:ars-maquette-pro-black;src:url("../fonts/arsmaquettepro-black-webfont.eot");src:url("http://apigee.com/about/about/sites/all/themes/apigee_themes/apigee_devl/fonts/ars-maquette-pro/arsmaquettepro-black-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-black-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-black-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-black-webfont.svg#ars-maquette-pro-black") format("svg");font-weight:normal;font-style:normal;}@font-face{font-family:ars-maquette-pro-black-italic;src:url("../fonts/arsmaquettepro-blackitalic-webfont.eot");src:url("../fonts/arsmaquettepro-blackitalic-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-blackitalic-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-blackitalic-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-blackitalic-webfont.svg#ars-maquette-pro-black-italic") format("svg");font-weight:normal;font-style:normal;}
 @font-face{font-family:ars-maquette-pro-bold;src:url("../fonts/arsmaquettepro-bold-webfont.eot");src:url("../fonts/arsmaquettepro-bold-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-bold-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-bold-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-bold-webfont.svg#ars-maquette-pro-bold") format("svg");font-weight:normal;font-style:normal;}@font-face{font-family:ars-maquette-pro-bold-italic;src:url("../fonts/arsmaquettepro-bolditalic-webfont.eot");src:url("../fonts/arsmaquettepro-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-bolditalic-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-bolditalic-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-bolditalic-webfont.svg#ars-maquette-pro-bold-italic") format("svg");font-weight:normal;font-style:normal;}

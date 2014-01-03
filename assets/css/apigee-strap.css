@@ -242,7 +242,10 @@ footer{
     top: 217px;
 }
 .eb_event_list_item {
-    margin-bottom: 1em;
+    margin-bottom: 1.34em;
+}
+.event_list{
+    margin-top: -10px;
 }
 @font-face{font-family:ars-maquette-pro-black;src:url("../fonts/arsmaquettepro-black-webfont.eot");src:url("http://apigee.com/about/about/sites/all/themes/apigee_themes/apigee_devl/fonts/ars-maquette-pro/arsmaquettepro-black-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-black-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-black-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-black-webfont.svg#ars-maquette-pro-black") format("svg");font-weight:normal;font-style:normal;}@font-face{font-family:ars-maquette-pro-black-italic;src:url("../fonts/arsmaquettepro-blackitalic-webfont.eot");src:url("../fonts/arsmaquettepro-blackitalic-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-blackitalic-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-blackitalic-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-blackitalic-webfont.svg#ars-maquette-pro-black-italic") format("svg");font-weight:normal;font-style:normal;}
 @font-face{font-family:ars-maquette-pro-bold;src:url("../fonts/arsmaquettepro-bold-webfont.eot");src:url("../fonts/arsmaquettepro-bold-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-bold-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-bold-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-bold-webfont.svg#ars-maquette-pro-bold") format("svg");font-weight:normal;font-style:normal;}@font-face{font-family:ars-maquette-pro-bold-italic;src:url("../fonts/arsmaquettepro-bolditalic-webfont.eot");src:url("../fonts/arsmaquettepro-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/arsmaquettepro-bolditalic-webfont.woff") format("woff"),url("../fonts/arsmaquettepro-bolditalic-webfont.ttf") format("truetype"),url("../fonts/arsmaquettepro-bolditalic-webfont.svg#ars-maquette-pro-bold-italic") format("svg");font-weight:normal;font-style:normal;}
